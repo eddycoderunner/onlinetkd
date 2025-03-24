@@ -1,0 +1,9 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<h1>Admin Dashboard</h1>
+
+<p><a href="{% url 'admin:onlinetkd_competitor_changelist' %}>Manage Competitor</a></p>
+
+{{ block.super }}
+{% endblock %}
